@@ -4,7 +4,7 @@
 }
 body {
 	font-family: 'Poppins', sans-serif;
-	font-size: 14px;
+	font-size: 18px;
 }
 a {
 	color:#5f0099;
@@ -13,13 +13,15 @@ a:hover {
 	color:#5f0099;
 }
 h1, h2, h3 {
-	font-weight: 700;
+	font-weight: 600;
+	font-size: 50px;
 }
 h4, h5 {
 	font-weight:600;
 }
 h6 {
-	font-weight:500;
+	font-weight:600;
+	font-size: 20px;
 }
 .white {
 	color:#ffffff !important;
@@ -52,7 +54,7 @@ h6 {
 	color: #fff;
 	text-transform: uppercase;
 	font-weight: 600;
-	font-size: 13px;
+	font-size: 16px;
 }
 .navbar .nav-item a:hover {
 	color: #5f0099;
@@ -98,9 +100,9 @@ h6 {
 }
 .banner {
 	background: #7a60ff;
-	background: linear-gradient(to left, #7a60ff, #cd9ffa);
-	padding:100px 0px;
-	position:relative;
+	background: linear-gradient(to left, #80379D, #e2c6ff);
+	padding: 170px 0px 50px 0px;
+	position: relative;
 }
 .banner::before {
 	content: "";
@@ -125,11 +127,11 @@ h6 {
 	width: 100%;
 }
 .banner-text {
-	padding-right:80px;
+	padding-right: 80px;
 	margin:50px 0px 0px;
 }
 .banner-text p {
-	margin:40px 0px;
+	margin: 40px 0px;
 }
 .banner-text ul {
 	list-style: none;
@@ -188,7 +190,7 @@ h6 {
 	height: 135px;
 	border-radius: 100px;
 	background: #7a60ff;
-	background:  linear-gradient(to left, #7a60ff, #cd9ffa);
+	background:  linear-gradient(to left, #80379D, #e2c6ff);
 	color: #ffffff;
 	font-size: 50px;
 	line-height: 135px;
@@ -204,16 +206,16 @@ h6 {
 	margin: 0 auto;
 }
 .about-btn {
-	color: #8e1efc;
+	color: #80379D;
 	padding: 10px 40px;
-	border: 2px solid #8e1efc;
+	border: 2px solid #80379D;
 	border-radius: 7px;
 	margin-top: 30px;
 	display: inline-block;
 	font-size: 18px;
 }
 .about-btn:hover {
-	background:#8e1efc;
+	background:#80379D;
 	color:#ffffff;
 	text-decoration:none;
 }
@@ -223,7 +225,7 @@ h6 {
 	overflow: hidden;
 }
 .video-overlay {
-	background: linear-gradient(to left, rgba(122, 96, 255, 0.90), rgba(205, 159, 250, 0.90));
+	background: linear-gradient(to left, #80379D, #e2c6ff);
 }
 .video-section h3 {
 	font-weight: 600;
@@ -322,7 +324,7 @@ h6 {
 }
 .testimonial {
 	background: #7a60ff;
-	background: linear-gradient(to left, #7a60ff, #cd9ffa);
+	background: linear-gradient(to left, #80379D, #e2c6ff);
 	padding:100px 0px;
 	position:relative;
 }
@@ -435,14 +437,14 @@ input {
 	border-radius: 2rem;
 	border: 0;
 	background: #7a60ff;
-	background: linear-gradient(to left, #7a60ff, #cd9ffa);
+	background: linear-gradient(to left, #80379D, #e2c6ff);
 	cursor:pointer;
 }
 .contact-info {
 	padding: 2rem 2rem 1rem;
 	border-radius: 8px;
 	background: #7a60ff;
-	background: linear-gradient(to left, #7a60ff, #cd9ffa);
+	background: linear-gradient(to left, #80379D, #e2c6ff);
 }
 .contact-item {
 	margin:23px 0px;
@@ -456,7 +458,7 @@ input {
 }
 .download {
 	background: #7a60ff;
-	background: linear-gradient(to left, #7a60ff, #cd9ffa);
+	background: linear-gradient(to left, #80379D, #e2c6ff);
 	padding:100px 0px;
 	position:relative;
 }
@@ -589,7 +591,7 @@ h3 {
 	font-size: 13px;
 }
 #contact_form {
-	margin-bottom:20px;
+	margin-bottom: 20px;
 }
 .contact-item {
 	font-size: 12px;
