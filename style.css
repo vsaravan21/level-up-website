@@ -267,6 +267,9 @@ h6 {
 	margin-bottom: 80px;
 	margin-top: 40px;
 }
+.icon-box h5 {
+    color: #035e5e !important; /* Replace #FF5733 with the color you want */
+}
 .single-feature h5 {
 	font-size: 16px;
 }
